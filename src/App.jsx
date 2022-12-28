@@ -2,6 +2,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Example from './Toggle';
 import FlushExample from './Accordion';
+import BasicExample from './Card';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Example />
       <FlushExample />
+      <BasicExample />
     </div>
   )
 }

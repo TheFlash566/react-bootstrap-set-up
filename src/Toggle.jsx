@@ -20,21 +20,22 @@ function CustomToggle({ children, eventKey }) {
 
 function Example() {
   return (
-    <Accordion defaultActiveKey="0">
+    <Accordion defaultActiveKey="0" style={{padding: '4em 10em',
+        background: 'gold',}}>
       <Card>
         <Card.Header>
-          <CustomToggle eventKey="0">Click me!</CustomToggle>
+          <CustomToggle eventKey="0">Click to know my name!</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
-          <Card.Body>Hello! I'm the body</Card.Body>
+          <Card.Body>Hello! I'm Micheal Oki</Card.Body>
         </Accordion.Collapse>
       </Card>
       <Card>
         <Card.Header>
-          <CustomToggle eventKey="1">Click me!</CustomToggle>
+          <CustomToggle eventKey="1">Click to know more about me!</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
-          <Card.Body>Hello! I'm another body</Card.Body>
+          <Card.Body>I'm a software developer with rich experience</Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>

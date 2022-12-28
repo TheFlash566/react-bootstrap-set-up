@@ -2,7 +2,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function FlushExample() {
   return (
-    <Accordion defaultActiveKey="0" flush>
+    <Accordion defaultActiveKey="0" flush style={{padding: '4em 10em',
+        background: 'green',}}>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Accordion Item #1</Accordion.Header>
         <Accordion.Body>
